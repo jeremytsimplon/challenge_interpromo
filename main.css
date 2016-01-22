@@ -1,0 +1,267 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 janv. 2016, 14:43:35
+    Author     : jeremytsimplon
+*/
+
+body {
+    font-family: Awesome, sans-serif;
+    margin-top: -10px;
+}
+
+/******* header ********/
+
+header {
+    background-image: url(img/payments-banner-graphic.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:#FEFEFE;
+}
+
+#header-left {
+    float:left;
+    width:auto;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-weight: bolder;
+}
+
+#logo{
+    width:10%;
+}
+
+#header-left p {
+    display:inline-block;
+    margin:0 0 5px 5px;
+}
+
+
+#header-right{
+    float:right;
+    width:15%;
+    margin-top:2%;
+}
+
+#header-right ul {
+    list-style-type: none;
+}
+
+#header-right li {
+    display:inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+
+#main-header{
+    clear:both;
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top:200px;
+}
+
+
+/***button**/
+#main-header a{
+    text-decoration:none;
+    color:#6B6B9B;
+    background-color: #FEFEFE;
+    border-radius:2px;
+    padding: 10px 30px 10px 30px;
+}
+
+#main-header p{
+    margin-top:5%;
+}
+
+/*************payment*********/
+
+#payment {
+    color:#B7B5B7;
+    
+
+}
+
+#p_right ,#p_left ,#p_middle {
+    display:inline-block;
+    text-align:center;
+    margin:5% 0 5% 0;
+}
+
+#p_left {
+    width:33%;
+}
+
+#p_middle {
+    width:33%;
+    border-left: 1px solid #B7B5B7;
+    border-right:1px solid #B7B5B7;
+}
+
+#p_right {
+    width:33%;
+}
+
+#p_body {
+        border-top:1px solid #B7B5B7;
+        background-color: #F6F9FB;
+        text-align: center;
+}
+
+#p_top{
+    margin-top:5%;
+    clear:both;
+}
+
+#price_left {
+    display:inline-block;
+    text-align: right;
+    font-size:40px;
+    color:#8788C2;
+}
+
+#price_right {
+    display:inline-block;
+    text-align: left;
+    
+}
+
+
+#strong {
+    color:#736B68;
+    font-weight:bold;
+}
+
+#mini{
+    font-size:10px;
+}
+
+
+#p_footer p{
+    background-color: #4C535C;
+    text-align: center;
+    margin: 0;
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+
+
+/******section no_inspiration ******/
+
+.img-left {
+    float:left;
+    display:inline-block;
+    width: 50%;
+    background-color: #7CD5EF;
+}
+
+.text-right {
+    float:right;
+    display:inline-block;
+    width: 50%;
+}
+
+.img-right {
+    float:right;
+    display:inline-block;
+    width: 50%;
+    background-color: #8080BE;
+}
+
+.text-left {
+    float:left;
+    display:inline-block;
+    width: 50%;
+}
+
+.img-left img{
+   width:70%;
+   padding-top:10%;
+   margin-left:15%;
+}
+
+.img-right img{
+ width:70%;
+ padding-top:10%;
+ margin-left:15%;
+}
+
+#top, #middle, #bottom {
+    clear:both;
+}
+
+.text-style {
+    text-align: center;
+    margin-top:10%;
+    color:#B7B5B7;
+}
+
+.text-location{
+    width: 60%;
+    margin: auto;
+}
+
+/*******freelance******/
+
+#freelance {
+    clear:both;
+    text-align: center;
+    padding-top:3%;
+    padding-bottom:3%;
+    color:#B7B5B7;
+}
+
+#freelance a {
+    text-decoration: none;
+     color:white;
+     background-color:#00A981;
+     border-radius: 2px;
+     padding:1% 5% 1% 5%;
+}
+
+#freelance p {
+    margin-top:2%;
+}
+
+/******footer*******/
+
+footer{
+    background-color:#242629;
+      color:#B7B5B7;
+}
+
+
+
+#foot-left{
+    width:33%;
+    float: left;
+    text-align: right;
+    padding-top: 2%;    
+}
+
+#foot-middle{
+     width:33%;
+     display:inline-block;
+     text-align: center;
+     padding-top: 2%;    
+}
+
+#foot-right{
+     width:33%;
+     float:right;
+     text-align: left;
+     padding-top: 2%;    
+}
+
+#foot-end{
+clear:both;    
+width:50%;
+margin-left: 10%;
+padding-bottom:2%;
+}
+
